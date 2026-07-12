@@ -68,7 +68,7 @@ Since the app relies heavily on Firebase, link your project:
 2. In your Firebase Console, ensure your Firestore database is active.
 3. Enable **Email/Password** sign-in in the Firebase Authentication tab.
 
-*(💡 Pro tip: Our queries are optimized in Dart to sort data locally in memory, meaning you won't need to manually configure complex Firestore Composite Indexes!)*
+
 
 ### 4. Run the App!
 ```bash
