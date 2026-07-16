@@ -1,13 +1,13 @@
-# 🎓 ALU Internship Connector
+#  ALU Internship Connector
 
-Welcome to the **ALU Internship Connector**! 🚀 
+Welcome to the **ALU Internship Connector**!  
 This platform is a dedicated mobile application designed to bridge the gap between African Leadership University (ALU) students and promising Startups/Ventures. 
 
 Whether you are a student looking for a meaningful way to contribute, or an entrepreneur looking for top-tier talent, this app provides a seamless, real-time, and beautifully designed experience.
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
 *   **Role-Based Routing:** The app automatically knows who you are. It dynamically redirects `students` to the opportunity feed and `startup_owners` to their management dashboard.
 *   **Real-Time Sync:** Opportunities and job applications update instantly without refreshing, thanks to Firebase Streams.
@@ -23,7 +23,7 @@ Whether you are a student looking for a meaningful way to contribute, or an entr
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 *   **Frontend:** [Flutter](https://flutter.dev/) (Dart)
 *   **State Management:** [Riverpod](https://riverpod.dev/) (Modern approach: `Provider`, `StreamProvider`, `FutureProvider`)
@@ -31,7 +31,7 @@ Whether you are a student looking for a meaningful way to contribute, or an entr
 
 ---
 
-## 🏗 Architecture (Feature-First)
+##  Architecture (Feature-First)
 
 The codebase is strictly organized using a **Feature-Driven Architecture** to ensure the code remains scalable, clean, and bug-free:
 
@@ -47,7 +47,7 @@ lib/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 Follow these simple steps to run the project locally on your machine.
 
@@ -78,7 +78,7 @@ flutter run
 
 ---
 
-## 🧪 How to Test Both Roles
+##  How to Test Both Roles
 
 1.  **As a Student:** Create a new account. By default, you will land on the Home Screen where you can browse and apply for jobs.
 2.  **As a Startup:** Go to your Firebase Firestore console, find your user document in the `users` collection, and change the `role` field from `student` to `startup_owner`. Restart the app, and you will be magically redirected to the **Startup Dashboard** to start posting offers!
